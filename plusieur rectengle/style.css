@@ -1,0 +1,57 @@
+body {
+	background-color: rgba(235, 235, 235, 1);
+}
+.page {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-bottom: 87px;
+}
+.rouge {
+	background-color: red;
+	border-radius: 10px;
+	width: 641px;
+	height: 561px;
+	position: relative;
+}
+.bleu {
+	background-color: blue;
+	border-radius: 10px;
+	width: 641px;
+	height: 561px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.vert {
+	background-color: green;
+	border-radius: 10px;
+	width: 641px;
+	height: 561px;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.Cookies {
+	background-color: rgba(217, 217, 217, 1);
+	width: 30%;
+	text-align: center;
+}
+.T1 {
+	display: flex;
+	justify-content: space-around;
+}
+.Cookies > h2 {
+	margin-bottom: 0;
+}
+h4:nth-child(1) {
+	border: solid blue 1px;
+	border-radius: 25px;
+	padding: 0 18px;
+}
+h4:nth-child(2) {
+	background-color: blue;
+	border-radius: 25px;
+	padding: 0 18px;
+}
